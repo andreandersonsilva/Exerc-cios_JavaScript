@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de exercício</title>
+    <title>Hora do dia</title>
     <link rel="stylesheet" href="estilo.css">
 
 </head>
-<body>
+<!--Aqui eu fiz a ligação com o ONLOAD da function do JavaScript inserindo o "CARREGAR()"-->
+<body onload="carregar()">
     <header>
-        <h1>Título</h1>
+        <h1>Hora do dia</h1>
     </header>
 
     <section>
-        <div>
-            Teste
+        <div id="msg">
+            Aqui vai aparecer a mensagem...
         </div>
 
-        <div>
-
+        <div id="foto">
+            <!--O alt é pra texto alternativo-->
+            <img id="imagem" src="manha.png" alt="Foto do dia">
         </div>
     </section>
 

@@ -24,3 +24,10 @@ footer{
     color:white;
     font-style: italic;
 }
+
+/* Ajustando as imagens dentro da DIV*/
+
+div {
+    text-align: center;
+    padding: 8px;
+}
